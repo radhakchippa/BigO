@@ -6,3 +6,6 @@ You should drop the non-dominant terms
 * O(N^2 + N) becomes O(N^2).
 * O(N + logN) becomes O(N).
 * O(%*2^N + 1000N^100) becomes O(2^N).
+# Multi-part Algorithms: Add vs Multiply #
+* If your algorithm is in the form "do this, then when you're all done, do that" then you add the runtimes.
+* If your algorithm is in the form "do this for each time you do that" then you multiply the runtimes.
